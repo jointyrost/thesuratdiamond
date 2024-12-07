@@ -1,0 +1,624 @@
+
+.scrollable-container {
+  overflow-x: auto;
+  white-space: nowrap;
+  padding-top: 10px;
+}
+.box-part {
+  display: inline-block;
+  padding: 5px 5px  5px 5px; 
+  margin-right: 10px;
+  flex-direction: column;
+  width: calc(16.66% - 20px); /* 100% / 6 columns - margin */ 
+  text-align: center;
+}
+.box-part-two {
+  display: inline-block;
+  padding: 5px 5px  5px 5px; 
+  margin-right: 10px;
+  flex-direction: column;
+  width: calc(16.66% - 20px); /* 100% / 6 columns - margin */ 
+  text-align: center;
+  margin-left: 10px;
+}
+.profile-setting {
+  display: inline-block;
+  padding: 5px 5px  5px 5px; 
+  margin-right: 30px;
+  flex-direction: column;
+  width: 35px; /* 100% / 6 columns - margin */ 
+  text-align: center;
+  margin-left: 30px;
+}
+.box-part .title h4 {
+  margin-top: 5px;
+  font-size: 12px;
+}
+.box-part-two .title h4 {
+  margin-top: 5px;
+  font-size: 12px;
+}
+.profile-setting .title h4 {
+  margin-top: 5px;
+  font-size: 12px;
+}
+
+.title-button-container {
+  display: flex;
+  justify-content: space-between; 
+} 
+
+.shape-btn:hover {
+background: #e5f2ed; 
+cursor: pointer;
+}
+.text-small {
+  font-size: 0.875em; /* or any desired small size */
+}
+.text-large {
+  font-size: 1.2em; /* or any desired small size */
+}
+.form-check-label {
+  font-size: 0.875em !important; /* Small text size */
+  padding-left: 18px !important;
+}
+.form-check-input[type=checkbox] {
+  width: 0.500em !important;
+  height: 0.500em !important; /* Small checkbox size */ 
+} 
+
+.modalClose{
+      width: 60px !important;
+      background-color: #01204E !important;
+      color: white;
+      font-size: 13px;
+      border-radius: 3px !important;
+      padding: 6px;
+}
+.modalClose:hover{
+   color: white !important;
+}
+.modal-heading{
+     font-weight: 400;
+      font-size: 21px;
+      font-style: italic;
+      padding: 7px;
+}
+.modal-text{
+  margin-bottom: 0;
+  padding: 10px;
+  color: black;
+  font-weight: 200;
+ line-height: 1.7;
+}
+.svg-icon{
+height: 35px;
+min-width: 35px !important;
+} 
+.icon-div {
+  /*padding: 5px;  Add padding here */
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+  box-sizing: border-box; 
+}
+
+
+.icon:hover, .icon.active {
+background-color: #1f756021;
+/* Other styles if needed */
+}
+
+.nested-icon-div {
+  /*padding: 5px;  Add padding here */
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+  box-sizing: border-box; /* Include padding in element's total size */
+}
+
+.nested-icon-div:hover, .nested-icon-div.active {
+  background-color: #1f756021;
+  border: 1px solid #1f756021;
+} 
+
+/*tab style*/
+.nav-tabs {
+  display: flex;
+  background: #fff;
+  box-shadow: 0 5px 13px #0003;
+  border-radius: 3px;
+  flex-wrap: wrap;
+}
+
+.nav-item {
+  flex: 0 0 calc(34% - 10px);
+  margin: 0px;
+  text-align: center;
+
+}
+.nav-link {
+  padding: 10px;
+  border-radius: 5px;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  height: 80px !important;
+  position: relative !important;
+  color: black;
+}
+.nav-link.active {
+ background-color: #01204E !important;
+  color: #ffffff !important;
+}
+.nav-link::after {
+  content: attr(data-step);
+  font-weight: 200;
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.multi-step-tab-container, .multi-step-tab-second-container {
+  display: flex;
+  flex-wrap: nowrap;
+  /*gap: 10px;*/ 
+}
+
+.multi-step-tab, .multi-step-second-tab {
+  flex: 1;
+  width: 166px;
+  height: 50px;
+  padding: 0 10px;
+  font-size: 12px;
+  overflow: hidden;
+  /*white-space: nowrap;*/
+  text-overflow: ellipsis;
+  text-align: center;
+  border: 2px solid #1f756021;
+  background-color: white;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  transition: background-color 0.3s ease;
+}
+
+.multi-step-tab.active, .multi-step-second-tab.active{
+  background-color: rgba(1, 32, 78, 0.1); 
+    border: 1px solid #01204E !important;
+    color: #01204E !important;
+}
+
+.multi-step-tab-content {
+  display: none;
+   
+  padding: 20px;
+}
+
+.multi-step-tab-content.active {
+  display: block;
+}
+.multi-step-second-tab-content.active{
+  display: block;
+}
+ .nested-nav-tabs {
+    display: flex;
+    background: #fff;  
+    flex-wrap: wrap;
+}
+.nested-nav-item {
+    flex: 0 0 calc(34% - 10px);
+    margin: 0px;
+    text-align: center;
+
+}
+.nested-nav-link {
+     flex: 1;
+  width: 166px;
+  height: 50px;
+  padding: 0 10px;
+  font-size: 12px;
+  overflow: hidden;
+  /*white-space: nowrap;*/
+  text-overflow: ellipsis;
+  text-align: center;
+  border: 2px solid #1f756021;
+  background-color: white;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  transition: background-color 0.3s ease;
+  color: black;
+ text-decoration: none;
+}
+.nested-nav-link.active {
+  
+  background-color: rgba(1, 32, 78, 0.1); 
+
+    border: 1px solid #01204E !important;
+    color: #01204E !important;
+}
+.nested-nav-link:hover {
+   border: 1px solid #5f8af7 !important;
+    color: #5f8af7 !important;
+    color: black;
+}
+
+.nestedCol {
+  margin-top: 5px;
+}
+@media (min-width: 992px) {
+  .nestedCol.col-lg-2 {
+      /*flex: 0 0 auto;*/
+      width: 7.66666667%;
+
+  }
+  .nested-scrollable-container {
+      overflow-x: auto;
+      white-space: nowrap;
+  }
+  .nestedCol {
+      display: inline-block;
+      float: none;
+      vertical-align: top;
+      white-space: normal; /* Ensures content inside the column wraps properly */
+  }  
+}
+#priceRange {
+margin-top: 20px;
+}
+
+#tableRange {
+margin-top: 20px;
+}
+#depthRange {
+margin-top: 20px;
+}
+#cutRange {
+margin-top: 20px;
+}
+.ui-slider .ui-slider-handle {
+position: absolute;
+z-index: 2;
+width: 1.2em;
+height: 1.2em;
+cursor: pointer;
+}
+
+
+
+.ui-slider-handle.ui-state-default.ui-corner-all { 
+  border-radius: 0px !important;
+  height: 28px !important;  
+  width: 14px !important;
+}
+#caratRange, .priceRange, .colorRange , .depthRange , .tableRange{
+  margin-top: 20px;
+}
+.ui-slider .ui-slider-handle {
+  position: absolute;
+  cursor: pointer;
+  z-index: 2;
+  width: 1.2em;
+  height: 1.2em;
+  cursor: pointer;
+}
+.ui-slider .ui-slider-range {
+  position: absolute;
+  z-index: 1;
+  font-size: .7em;
+  display: block;
+  border: 0;
+  background-position: 0 0;
+}
+.ui-tooltip {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 14px;
+  display: block;
+}
+.carat-labels, .price-labels, .cut-labels, .color-labels .table-labels,  .depth-labels, .length-width-labels {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.carat-labels span {
+  /* top: -20px; */
+}
+.ui-slider-range.ui-widget-header.ui-corner-all {
+  background: #01204E none repeat scroll 0 0 !important;
+  border-radius: 0;
+  height: 4px !important;
+}
+.ui-slider-handle.ui-state-default.ui-corner-all { 
+  border-radius: 0px !important;
+  height: 28px !important;  
+  width: 14px !important;
+} 
+
+#caratRange {
+margin-top: 10px;
+margin-bottom: 10px;
+}
+
+.carat-labels {
+display: flex;
+justify-content: space-between;
+font-weight: bold;
+}
+
+.noUi-connect {
+background: #01204E !important;
+}
+.ui-slider-handle.ui-state-default.ui-corner-all {
+background: #01204E !important;
+display: none !important;
+
+}
+
+/* rANGE SELETER OF PRICE  */
+
+
+.price-labels {
+display: flex;
+justify-content: space-between;
+margin-top: 10px;
+font-weight: bold;
+width: 100%;
+}
+.table-labels {
+display: flex;
+justify-content: space-between;
+margin-top: 10px;
+font-weight: bold;
+width: 100%;
+}
+.length-width-labels {
+display: flex;
+justify-content: space-between;
+margin-top: 10px;
+font-weight: bold;
+width: 100%;
+}
+.depth-labels {
+display: flex;
+justify-content: space-between;
+margin-top: 10px;
+font-weight: bold;
+width: 100%;
+}
+.cut-labels {
+display: flex;
+justify-content: space-between;
+margin-top: 10px;
+font-weight: bold;
+width: 100%;
+}
+
+#price-start, #price-end {
+display: inline-block;
+font-size: 12px;
+}
+#carat-start, #carat-end {
+display: inline-block;
+font-size: 12px;
+}
+#color-start, #color-end {
+display: inline-block;
+font-size: 12px;
+}
+#cut-start, #cut-end {
+display: inline-block;
+font-size: 12px;
+}
+#depth-start, #depth-end {
+display: inline-block;
+font-size: 12px;
+}
+#table-start, #table-end {
+display: inline-block;
+font-size: 12px;
+}
+#lw-start, #lw-end {
+display: inline-block;
+font-size: 12px;
+}
+
+#priceRange {
+margin-top: 10px;
+}
+#colorRange {
+margin-top: 10px;
+}
+
+#cutRange {
+margin-top: 10px; /* Ensuring the same top margin for both sliders */
+}
+#tableRange {
+margin-top: 10px; /* Ensuring the same top margin for both sliders */
+}
+#depthRange {
+margin-top: 10px; /* Ensuring the same top margin for both sliders */
+}
+
+/* Styling for the range slider, customize according to your needs */
+.noUi-connect {
+background: #01204E; /* Your custom blue color */
+}
+.noUi-handle {
+background-color: #777; /* Handle color */
+}
+.noUi-tooltip {
+background-color: #01204E;
+color: white;
+font-size: 12px;
+}
+
+/* .noUi-horizontal .noUi-tooltip{
+bottom: 0 !important;
+} */
+
+
+.noUi-horizontal{
+  height: 8px;
+}
+
+
+.noUi-value {
+margin-top: 32px;
+font-size: 12px;
+color: #333;
+}
+
+.noUi-origin .noUi-handle {
+border-radius: 3px;
+background-color: #01204E;
+}
+
+.noUi-horizontal .noUi-handle {
+width: 16px;
+height: 16px;
+background-color: #01204E;
+}
+
+.ui-widget.ui-widget-content{
+background: #cbd3d9 none repeat scroll 0 0;
+border: medium none;
+height: 4px;
+
+}
+img.lightback {
+fill: #000; /* Force fill color to black (or any color you'd like) */
+}
+
+img.lightback {
+max-width: 100%;
+max-height: 100%;
+object-fit: contain; /* Ensures the SVG scales without distorting */
+}
+
+
+.ratio_preview {
+/* Removed background color and border */
+display: inline-block; /* Ensure it behaves like a box */
+position: relative; /* To make sure the internal elements position correctly */
+}
+
+.ratio_preview img {
+display: block; /* Ensures the SVG fits correctly in the div */
+max-width: 100%; /* Ensure the SVG scales properly within the container */
+height: auto; /* Maintain the aspect ratio */
+}
+
+.subtitle {
+position: absolute;
+top: -20px;
+left: 0;
+font-size: 12px;
+color: #333; /* Dark color for the text above the SVG */
+}
+
+
+
+/*  TRING FOR CLALIRY */
+
+
+
+
+/*  this is for the scroller */
+
+/* n css for modal  */
+
+
+.modal-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* flex-direction: column; */
+}
+
+.modal-logo-img {
+  /* display: inline-block; */
+  /* max-height: 100%;  */
+  /* margin-right: auto; */
+}
+
+.button-adjust {
+  width: auto; 
+ 
+  position: absolute;
+    right: 10px;
+    z-index: 1;
+    background-image: none;
+    font-size: 16px;
+    padding: 0.5rem 2rem;
+}
+
+#quick-view-modal-diamond .single-product-thumb .single-product-thumbnail img{
+  width: 100%;
+}
+
+
+
+/* add to card */
+/* Container for product details with a smooth dropdown effect */
+.product-details-container {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease;
+}
+
+/* Expanded state for the details */
+.product-details-container.active {
+  max-height: 100%; /* Adjust based on the maximum height of the content */
+ 
+}
+
+/* Additional styling for product-details to add padding */
+.product-details {
+  margin: 10px 0 0;
+  padding: 5px 0;
+}
+
+.cart-item{
+  box-shadow : 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+}
+
+
+/* OPTIONS */
+
+#quick-view-modal .modal-body .thumbnail i{
+  font-size: 14px;
+}
+#quick-view-modal-diamond #productCarousel  i{
+  font-size: 14px;
+}
+
+
+/* Add responsive styling for the iframe */
+.iframe-container {
+    position: relative;
+    width: 100%; /* Full width of the parent */
+    padding-top: 56.25%; /* Aspect ratio for 16:9, adjust if needed */
+    overflow: hidden;
+}
+
+.iframe-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; /* Adjust to fill parent */
+    height: 100%; /* Adjust to fill parent */
+    border: none; /* Remove default border */
+}

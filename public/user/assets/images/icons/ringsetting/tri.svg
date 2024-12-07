@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="128"
+   height="64"
+   version="1.1"
+   viewBox="0 0 127.99999 63.999999"
+   id="svg44"
+   sodipodi:docname="setting_trilogy.svg"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs48" />
+  <sodipodi:namedview
+     id="namedview46"
+     pagecolor="#909090"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     showgrid="true"
+     inkscape:zoom="4.9565872"
+     inkscape:cx="61.836902"
+     inkscape:cy="41.762606"
+     inkscape:window-width="1493"
+     inkscape:window-height="868"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g42"
+     fit-margin-top="4"
+     lock-margins="true"
+     fit-margin-left="4"
+     fit-margin-right="4"
+     fit-margin-bottom="4"
+     inkscape:showpageshadow="2"
+     inkscape:deskcolor="#909090">
+    <inkscape:grid
+       type="xygrid"
+       id="grid2554"
+       empspacing="4" />
+  </sodipodi:namedview>
+  <g
+     fill="none"
+     stroke="#000000 "
+     id="g42"
+     transform="translate(4.0874,4.032775)">
+    <g
+       transform="matrix(-1.3730344,0,0,-1.3793599,122.91205,53.020412)"
+       stroke-linecap="round"
+       stroke-linejoin="round"
+       id="g6"
+       style="stroke-width:0.726642">
+      <path
+         d="m 61.971,26.574 c 2.0012,1.7477 4.5677,2.7115 7.2246,2.7129 6.0708,5.9e-5 10.992,-4.9213 10.992,-10.992 5.8e-5,-6.0708 -4.9213,-10.992 -10.992,-10.992 -2.6938,0.00346 -5.2925,0.99596 -7.3027,2.7891"
+         stop-color="#000000"
+         id="path2"
+         style="stroke-width:0.554787" />
+      <path
+         d="m 66.242,11.177 10.055,4.177 m -4.022,-4.177 4.177,10.209 m 0,-5.878 -4.331,10.055 m 4.177,-4.176 -10.209,4.022 m 6.033,0.155 -8.4809,-3.6534 M 66.09,25.564 63.9259,20.071 m 0.01494,-3.0409 2.6081,-5.853 m -4.2328,-0.412 4.0808,0.408 m -0.155,14.386 -3.9172,0.25217 m 9.7952,-0.24817 -2.939,3.558 -2.939,-3.558 m 10.054,-4.177 0.464,4.641 -4.641,-0.464 m 4.178,-10.055 3.712,2.939 -3.712,2.939 m -4.177,-10.213 4.8,-0.464 -0.619,4.8 m -12.821,-0.584 8.7935,-3.597 m -6.033,-10e-4 2.939,-3.712 2.939,3.712"
+         id="path4"
+         style="stroke-width:0.726642" />
+    </g>
+    <g
+       transform="matrix(1.3730344,0,0,1.3793599,-3.0653062,2.5496343)"
+       stroke-linecap="round"
+       stroke-linejoin="round"
+       id="g12"
+       style="stroke-width:0.726642">
+      <path
+         d="m 61.971,26.574 c 2.0012,1.7477 4.5677,2.7115 7.2246,2.7129 6.0708,5.9e-5 10.992,-4.9213 10.992,-10.992 5.8e-5,-6.0708 -4.9213,-10.992 -10.992,-10.992 -2.6938,0.00346 -5.2925,0.99596 -7.3027,2.7891"
+         stop-color="#000000"
+         id="path8"
+         style="stroke-width:0.554787" />
+      <path
+         d="m 66.242,11.177 10.055,4.177 m -4.022,-4.177 4.177,10.209 m 0,-5.878 -4.331,10.055 m 4.177,-4.176 -10.209,4.022 m 6.033,0.155 -8.4809,-3.6534 M 66.09,25.564 63.9259,20.071 m 0.01494,-3.0409 2.6081,-5.853 m -4.2328,-0.412 4.0808,0.408 m -0.155,14.386 -3.9172,0.25217 m 9.7952,-0.24817 -2.939,3.558 -2.939,-3.558 m 10.054,-4.177 0.464,4.641 -4.641,-0.464 m 4.178,-10.055 3.712,2.939 -3.712,2.939 m -4.177,-10.213 4.8,-0.464 -0.619,4.8 m -12.821,-0.584 8.7935,-3.597 m -6.033,-10e-4 2.939,-3.712 2.939,3.712"
+         id="path10"
+         style="stroke-width:0.726642" />
+    </g>
+    <path
+       d="M 14.847382,20.308893 H 5.1744925 c -4.26793997,-0.06504 -7.7624496,3.392673 -7.7624496,7.680827 0,4.288017 3.49450963,7.745796 7.7624496,7.680828 h 9.6728895 m 90.263278,0 h 9.65682 c 4.16702,-0.131646 7.51449,-3.494608 7.64561,-7.680828 0.017,-4.249117 -3.41597,-7.697931 -7.64561,-7.680827 h -9.65682"
+       id="path14"
+       class="band"
+       style="stroke-width:1" />
+    <g
+       fill-rule="evenodd"
+       id="g40"
+       transform="matrix(1.3730344,0,0,1.3793599,-3.154471,2.5496343)"
+       style="stroke-width:0.726642">
+      <g
+         stroke-linejoin="round"
+         id="g38"
+         style="stroke-width:0.554787">
+        <path
+           d="M 45.977,36.387 A 17.944,17.944 0 1 0 28.034,18.443 17.956,17.956 0 0 0 45.977,36.387 Z m 4.8,-29.7 2.011,-4.641 m 4.95,11.6 4.64,-1.856 m -4.64,11.6 4.64,2.011 m -11.6,4.95 1.856,4.641 m -11.6,-4.641 -2.011,4.641 m -4.95,-11.6 -4.64,1.856 m 4.64,-11.6 -4.64,-2.011 m 11.6,-4.95 -1.856,-4.641"
+           data-name="Path 471"
+           id="path16"
+           style="stroke-width:0.726642" />
+        <path
+           d="m 41.028,6.688 4.95,-6.033 4.8,6.033"
+           data-name="Path 472"
+           id="path18"
+           style="stroke-width:0.726642" />
+        <path
+           d="M 34.067,13.648 50.773,6.687"
+           data-name="Path 473"
+           id="path20"
+           style="stroke-width:0.726642" />
+        <path
+           d="m 50.774,6.688 7.734,-0.773 -0.773,7.734"
+           data-name="Path 474"
+           id="path22"
+           style="stroke-width:0.726642" />
+        <path
+           d="m 57.735,13.652 6.033,4.95 -6.033,4.8"
+           data-name="Path 475"
+           id="path24"
+           style="stroke-width:0.726642" />
+        <path
+           d="m 57.734,23.397 0.619,7.734 -7.579,-0.928"
+           data-name="Path 476"
+           id="path26"
+           style="stroke-width:0.726642" />
+        <path
+           d="m 50.773,30.203 -4.95,6.033 -4.95,-6.033"
+           data-name="Path 477"
+           id="path28"
+           style="stroke-width:0.726642" />
+        <path
+           d="m 41.028,30.2 -7.734,0.619 0.773,-7.58"
+           data-name="Path 478"
+           id="path30"
+           style="stroke-width:0.726642" />
+        <path
+           d="m 34.068,23.243 -5.878,-5.1 6.033,-4.8"
+           data-name="Path 479"
+           id="path32"
+           style="stroke-width:0.726642" />
+        <path
+           d="m 34.222,13.339 -0.619,-7.58 7.734,0.773"
+           data-name="Path 480"
+           id="path34"
+           style="stroke-width:0.726642" />
+        <path
+           d="m 41.028,6.688 16.706,6.961 m -6.806,-6.961 6.806,16.706 m 0,-9.745 -7.116,16.551 m 7.116,-6.806 -16.706,6.651 m 9.59,0.309 -16.551,-7.27 m 6.806,7.115 -6.5,-16.861 m -0.309,9.745 7.27,-16.551"
+           data-name="Path 481"
+           id="path36"
+           style="stroke-width:0.726642" />
+      </g>
+    </g>
+  </g>
+</svg>
